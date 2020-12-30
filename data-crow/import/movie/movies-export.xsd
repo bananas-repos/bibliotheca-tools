@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="data-crow-objects">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" ref="movie"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+
+    <xsd:element name="actor" type="type-actor"/>
+    <xsd:complexType name="type-actor">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:element name="language" type="type-language"/>
+    <xsd:complexType name="type-language">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:element name="container" type="type-container"/>
+    <xsd:complexType name="type-container">
+        <xsd:sequence>
+            <xsd:element name="item" type="xsd:string"/>
+            <xsd:element name="description" type="xsd:string"/>
+            <xsd:element name="available" type="xsd:boolean"/>
+            <xsd:element name="created" type="xsd:date"/>
+            <xsd:element name="days" type="xsd:integer"/>
+            <xsd:element name="days-loaned" type="xsd:integer"/>
+            <xsd:element name="icon" type="xsd:string"/>
+            <xsd:element name="due-date" type="xsd:date"/>
+            <xsd:element name="filehash" type="xsd:string"/>
+            <xsd:element name="filehash-type" type="xsd:string"/>
+            <xsd:element name="filename" type="xsd:string"/>
+            <xsd:element name="filesize" type="xsd:integer"/>
+            <xsd:element name="picture-front" type="xsd:string"/>
+            <xsd:element name="id" type="xsd:string"/>
+            <xsd:element name="item" type="xsd:string"/>
+            <xsd:element name="label" type="xsd:string"/>
+            <xsd:element name="lend-by" type="xsd:string"/>
+            <xsd:element name="loan-end-date" type="xsd:date"/>
+            <xsd:element name="loan-start-date" type="xsd:date"/>
+            <xsd:element name="loan-status" type="xsd:string"/>
+            <xsd:element name="modified" type="xsd:date"/>
+            <xsd:element name="tags"/>
+            <xsd:element name="tags-list" type="xsd:string"/>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="user-long-text-field" type="xsd:string"/>
+            <xsd:element name="user-numeric-field-1" type="xsd:integer"/>
+            <xsd:element name="user-numeric-field-2" type="xsd:integer"/>
+            <xsd:element name="user-short-text-field-1" type="xsd:string"/>
+            <xsd:element name="user-short-text-field-2" type="xsd:string"/>
+            <xsd:element name="container-type" type="xsd:string"/>
+            <xsd:element name="items"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:element name="country" type="type-country"/>
+    <xsd:complexType name="type-country">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:element name="director" type="type-director"/>
+    <xsd:complexType name="type-director">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:element name="genre" type="type-genre"/>
+    <xsd:complexType name="type-genre">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:element name="tag" type="type-tag"/>
+    <xsd:complexType name="type-tag">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:element name="movie" type="type-movie"/>
+    <xsd:complexType name="type-movie">
+        <xsd:sequence>
+            <xsd:element name="item" type="xsd:string"/>
+            <xsd:element name="actors"/>
+            <xsd:element name="actors-list" type="xsd:string"/>
+            <xsd:element name="aspect-ratio" type="xsd:string"/>
+            <xsd:element name="audio-bitrate" type="xsd:string"/>
+            <xsd:element name="audio-channels" type="xsd:string"/>
+            <xsd:element name="audio-codec" type="xsd:string"/>
+            <xsd:element name="audio-languages"/>
+            <xsd:element name="audio-languages-list" type="xsd:string"/>
+            <xsd:element name="audio-sample-rate" type="xsd:string"/>
+            <xsd:element name="available" type="xsd:boolean"/>
+            <xsd:element name="certification" type="xsd:string"/>
+            <xsd:element name="color" type="xsd:string"/>
+            <xsd:element name="container"/>
+            <xsd:element name="container-list" type="xsd:string"/>
+            <xsd:element name="countries"/>
+            <xsd:element name="countries-list" type="xsd:string"/>
+            <xsd:element name="created" type="xsd:date"/>
+            <xsd:element name="days" type="xsd:integer"/>
+            <xsd:element name="days-loaned" type="xsd:integer"/>
+            <xsd:element name="description" type="xsd:string"/>
+            <xsd:element name="directors"/>
+            <xsd:element name="directors-list" type="xsd:string"/>
+            <xsd:element name="due-date" type="xsd:date"/>
+            <xsd:element name="ean" type="xsd:string"/>
+            <xsd:element name="episode-nr" type="xsd:integer"/>
+            <xsd:element name="episode-name" type="xsd:string"/>
+            <xsd:element name="filehash" type="xsd:string"/>
+            <xsd:element name="filehash-type" type="xsd:string"/>
+            <xsd:element name="filename" type="xsd:string"/>
+            <xsd:element name="filesize" type="xsd:integer"/>
+            <xsd:element name="fps" type="xsd:string"/>
+            <xsd:element name="frames" type="xsd:string"/>
+            <xsd:element name="genres"/>
+            <xsd:element name="genres-list" type="xsd:string"/>
+            <xsd:element name="height" type="xsd:string"/>
+            <xsd:element name="id" type="xsd:string"/>
+            <xsd:element name="item" type="xsd:string"/>
+            <xsd:element name="item-value" type="xsd:string"/>
+            <xsd:element name="label" type="xsd:string"/>
+            <xsd:element name="languages"/>
+            <xsd:element name="languages-list" type="xsd:string"/>
+            <xsd:element name="lend-by" type="xsd:string"/>
+            <xsd:element name="loan-end-date" type="xsd:date"/>
+            <xsd:element name="loan-start-date" type="xsd:date"/>
+            <xsd:element name="loan-status" type="xsd:string"/>
+            <xsd:element name="modified" type="xsd:date"/>
+            <xsd:element name="picture-back" type="xsd:string"/>
+            <xsd:element name="picture-cd" type="xsd:string"/>
+            <xsd:element name="picture-front" type="xsd:string"/>
+            <xsd:element name="playlength" type="xsd:integer"/>
+            <xsd:element name="rating" type="xsd:integer"/>
+            <xsd:element name="season" type="xsd:string"/>
+            <xsd:element name="series" type="xsd:string"/>
+            <xsd:element name="service" type="xsd:string"/>
+            <xsd:element name="service-url" type="xsd:string"/>
+            <xsd:element name="state" type="xsd:string"/>
+            <xsd:element name="storage-medium" type="xsd:string"/>
+            <xsd:element name="subtitle-languages"/>
+            <xsd:element name="subtitle-languages-list" type="xsd:string"/>
+            <xsd:element name="tags"/>
+            <xsd:element name="tags-list" type="xsd:string"/>
+            <xsd:element name="title" type="xsd:string"/>
+            <xsd:element name="title-local" type="xsd:string"/>
+            <xsd:element name="user-long-text-field" type="xsd:string"/>
+            <xsd:element name="user-numeric-field-1" type="xsd:integer"/>
+            <xsd:element name="user-numeric-field-2" type="xsd:integer"/>
+            <xsd:element name="user-short-text-field-1" type="xsd:string"/>
+            <xsd:element name="user-short-text-field-2" type="xsd:string"/>
+            <xsd:element name="video-bitrate" type="xsd:string"/>
+            <xsd:element name="video-codec" type="xsd:string"/>
+            <xsd:element name="webpage" type="xsd:string"/>
+            <xsd:element name="width" type="xsd:string"/>
+            <xsd:element name="year" type="xsd:integer"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:element name="tags">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="tag"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="items">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="item"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="actors">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="actor"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="audio-languages">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="language"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="container">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="container"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="countries">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="country"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="directors">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="director"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="genres">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="genre"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="languages">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="language"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="subtitle-languages">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element maxOccurs="unbounded" ref="language"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

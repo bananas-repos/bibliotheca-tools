@@ -1,0 +1,70 @@
+{
+  "mapping": {
+    "element": "movie",
+    "fields": {
+      "actors": {
+        "child": "actor",
+        "valuefield": "name",
+        "into": "actors"
+      },
+      "countries": {
+        "child": "country",
+        "valuefield": "name",
+        "into": "countries"
+      },
+      "description": {
+        "into": "content"
+      },
+      "description-alternative": {
+        "into": "description",
+        "from": "description",
+        "method": "firstSentence"
+      },
+      "directors": {
+        "child": "director",
+        "valuefield": "name",
+        "into": "directors"
+      },
+      "genres": {
+        "child": "genre",
+        "valuefield": "name",
+        "into": "genres"
+      },
+      "title": {
+        "into": "title"
+      },
+      "languages": {
+        "child": "language",
+        "valuefield": "name",
+        "into": "languages"
+      },
+      "picture-back": {
+        "into": "attachment",
+        "asset": "image"
+      },
+      "picture-cd": {
+        "into": "attachment",
+        "asset": "image"
+      },
+      "picture-front": {
+        "into": "coverimage",
+        "asset": "image"
+      },
+      "rating": {
+        "into": "rating",
+        "method": "modifyRatingTrim"
+      },
+      "playlength": {
+        "into": "runtime"
+      },
+      "tags": {
+        "child": "tag",
+        "valuefield": "name",
+        "into": "tag"
+      },
+      "year": {
+        "into": "year"
+      }
+    }
+  }
+}

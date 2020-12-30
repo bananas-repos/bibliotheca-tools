@@ -1,0 +1,75 @@
+{
+  "mapping": {
+    "element": "software-item",
+    "fields": {
+      "categories": {
+        "child": "category",
+        "valuefield": "name",
+        "into": "category"
+      },
+      "description": {
+        "into": "description"
+      },
+      "developers": {
+        "child": "developer",
+        "valuefield": "name",
+        "into": "directors"
+      },
+
+
+      "countries-list": {
+        "into": "country"
+      },
+      "created": {
+        "into": "date"
+      },
+      "description": {
+        "into": "body"
+      },
+      "description-alternative": {
+        "into": "description",
+        "from": "description",
+        "method": "firstSentence"
+      },
+
+      "genres": {
+        "child": "genre",
+        "valuefield": "name",
+        "into": "genres"
+      },
+      "title": {
+        "into": "title"
+      },
+      "languages-list": {
+        "into": "languages"
+      },
+      "picture-back": {
+        "into": "file_picture-back",
+        "asset": "image"
+      },
+      "picture-cd": {
+        "into": "file_picture-cd",
+        "asset": "image"
+      },
+      "picture-front": {
+        "into": "file_picture-front",
+        "asset": "image"
+      },
+      "rating": {
+        "into": "rating",
+        "method": "modifyRating"
+      },
+      "playlength": {
+        "into": "runtime"
+      },
+      "tags": {
+        "child": "tag",
+        "valuefield": "name",
+        "into": "storage"
+      },
+      "year": {
+        "into": "year"
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+# Requirements
+
+PHP installed as CLI with a minimum version of 7
+
+########################################################################################################################
+# run-import-to-bibliotheca
+
+This can be used to import the content of a xml export from Datacrow (http://www.datacrow.net/) into Bibliotheca
+database.
+
+Requirements:
+- php installed as cli
+- the xml export file in the import folder. Any additional files, like images go there too.
+- the import-mapping.json file in the import folder. This file defines which data goes where in the database.
+Use the import-mapping-example.json as a base and copy it into the import folder.
+- API token
+- The ID of your collection you want to import the data into
+- The structure of the api call for your colleciton. This can requested by calling the api. See the api
+docu for this.
+
+import-mapping.json
+Defines which xml element from the xml export file will be used. Name of the item goes into the element entry.
+The files array defines which field of the xml element goes where in the database.
+Into has to start with file_
+Minimum is the into with an target string.
+child defines that the element has children which will be used to create a comma seperated string defined by
+valuefield.
+method defines a method in datacrowimport.class.php which will be used to alter the data befor writing it into the
+database. The string and a prefix of _modify_ will be used as the method name within the php class
+
+Usage:
+Make sure you read the requirements and copied over the example files. Alter them to your needs.
+Modify the run-import-to-bibliotheca.php and updated all the info there. Alter the curl payload to your needs.
+The run run-import-to-bibliotheca.php file. Any error or missconfig should be printed as an error in the import-error.log
+file.
+
+    php -f run-import-to-bibliotheca.php
+
+
+########################################################################################################################
+# run-import-to-static-md.php
+
+This can be used to create static content of a xml export from Datacrow (http://www.datacrow.net/)
+
+It will create the md files and folder structure needed for the static version run by Hugo.
+
+Requirements:
+- php installed as cli
+- the xml export file in the import folder. Any additional files, like images go there too.
+- the import-mapping.json file in the import folder. This file defines which data goes where in the md files.
+Use the import-mapping-example.json as a base and copy it into the import folder
+- the markdown-template.md file in the import folder. This file defines the md layout.
+Use the markdown-template-example.md as a base and copy it into the import folder
+- the output folder. Created files and folder structure will be saved here and can be copied wherever you need them.
+
+import-mapping.json
+Defines which xml element from the xml export file will be used. Name of the item goes into the element entry.
+The files array defines which field of the xml element goes where in the markdown-template. Into has to start with
+file_
+Minimum is the into with an target string.
+child defines that the element has children which will be used to create a comma seperated string defined by
+valuefield.
+method defines a method in datacrowimport.class.php which will be used to alter the data befor writing it into the
+template. The string and a prefix of _modify_ will be used as the method name within the php class
+
+markdown-template.md
+The string defined in the import-mapping.json from the into field will be used in combination of # and uppercase
+as a placeholder.
+It is a ordinary markdown file which should suit your Hugo template structure. So it should match the layout of
+your final markdown file used in Hugo.
+
+Usage:
+Make sure you read the requirements and copied over the example files. Alter them to your needs.
+The run run-import-to-static-md.php file. Any error or missconfig should be printed as an error in the import-error.log
+file. After success the output folder should contain all the files you need and can be copied over to
+static-hugo content folder.
+
+    php -f run-import-to-static-md.php

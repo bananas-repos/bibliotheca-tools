@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data-crow-objects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="games-export.xsd">
+    <software-item>
+        <item>Software</item>
+        <available>true</available>
+        <categories>
+        </categories>
+<categories-list></categories-list>
+        <container>
+        </container>
+<container-list></container-list>
+        <cooperative-multiplayer></cooperative-multiplayer>
+        <countries>
+        </countries>
+<countries-list></countries-list>
+        <created>2015-09-23</created>
+        <days></days>
+        <days-loaned></days-loaned>
+        <description></description>
+        <developers>
+        </developers>
+<developers-list></developers-list>
+        <due-date></due-date>
+        <ean></ean>
+        <filehash></filehash>
+        <filehash-type></filehash-type>
+        <filename></filename>
+        <filesize></filesize>
+        <id>00a34000-fded-443f-a5bf-05df96a48f6c</id>
+        <item>Software</item>
+        <item-value></item-value>
+        <label>Red Ocean</label>
+        <languages>
+        </languages>
+<languages-list></languages-list>
+        <lend-by></lend-by>
+        <license></license>
+        <loan-end-date></loan-end-date>
+        <loan-start-date></loan-start-date>
+        <loan-status>Available</loan-status>
+        <modified>2015-09-23</modified>
+        <multiplayer-game></multiplayer-game>
+        <picture-back></picture-back>
+        <picture-cd></picture-cd>
+        <picture-front></picture-front>
+        <platform></platform>
+        <publishers>
+        </publishers>
+<publishers-list></publishers-list>
+        <rating></rating>
+        <screenshot-one></screenshot-one>
+        <screenshot-three></screenshot-three>
+        <screenshot-two></screenshot-two>
+        <serial-key></serial-key>
+        <service></service>
+        <service-url></service-url>
+        <state>
+        </state>
+<state-list></state-list>
+        <storage-medium></storage-medium>
+        <tags>
+            <tag>
+                <name>trekstor/games_1</name>
+            </tag>
+        </tags>
+<tags-list>trekstor/games_1</tags-list>
+        <title>Red Ocean</title>
+        <user-long-text-field></user-long-text-field>
+        <user-numeric-field-1></user-numeric-field-1>
+        <user-numeric-field-2></user-numeric-field-2>
+        <user-short-text-field-1></user-short-text-field-1>
+        <user-short-text-field-2></user-short-text-field-2>
+        <version></version>
+        <webpage></webpage>
+        <year></year>
+    </software-item>
+    <software-item>
+        <item>Software</item>
+        <available>true</available>
+        <categories>
+        </categories>
+<categories-list></categories-list>
+        <container>
+        </container>
+<container-list></container-list>
+        <cooperative-multiplayer></cooperative-multiplayer>
+        <countries>
+        </countries>
+<countries-list></countries-list>
+        <created>2015-09-23</created>
+        <days></days>
+        <days-loaned></days-loaned>
+        <description></description>
+        <developers>
+        </developers>
+<developers-list></developers-list>
+        <due-date></due-date>
+        <ean></ean>
+        <filehash></filehash>
+        <filehash-type></filehash-type>
+        <filename></filename>
+        <filesize></filesize>
+        <id>040ddce9-77c4-404a-b9f8-275aa46146f1</id>
+        <item>Software</item>
+        <item-value></item-value>
+        <label>Sins of a Solar Empire</label>
+        <languages>
+        </languages>
+<languages-list></languages-list>
+        <lend-by></lend-by>
+        <license></license>
+        <loan-end-date></loan-end-date>
+        <loan-start-date></loan-start-date>
+        <loan-status>Available</loan-status>
+        <modified>2015-09-23</modified>
+        <multiplayer-game></multiplayer-game>
+        <picture-back></picture-back>
+        <picture-cd></picture-cd>
+        <picture-front></picture-front>
+        <platform></platform>
+        <publishers>
+        </publishers>
+<publishers-list></publishers-list>
+        <rating></rating>
+        <screenshot-one></screenshot-one>
+        <screenshot-three></screenshot-three>
+        <screenshot-two></screenshot-two>
+        <serial-key></serial-key>
+        <service></service>
+        <service-url></service-url>
+        <state>
+        </state>
+<state-list></state-list>
+        <storage-medium></storage-medium>
+        <tags>
+            <tag>
+                <name>trekstor/games_3</name>
+            </tag>
+        </tags>
+<tags-list>trekstor/games_3</tags-list>
+        <title>Sins of a Solar Empire</title>
+        <user-long-text-field></user-long-text-field>
+        <user-numeric-field-1></user-numeric-field-1>
+        <user-numeric-field-2></user-numeric-field-2>
+        <user-short-text-field-1></user-short-text-field-1>
+        <user-short-text-field-2></user-short-text-field-2>
+        <version></version>
+        <webpage></webpage>
+        <year></year>
+    </software-item>
+    <software-item>
+        <item>Software</item>
+        <available>true</available>
+        <categories>
+        </categories>
+<categories-list></categories-list>
+        <container>
+        </container>
+<container-list></container-list>
+        <cooperative-multiplayer></cooperative-multiplayer>
+        <countries>
+        </countries>
+<countries-list></countries-list>
+        <created>2015-09-23</created>
+        <days></days>
+        <days-loaned></days-loaned>
+        <description></description>
+        <developers>
+        </developers>
+<developers-list></developers-list>
+        <due-date></due-date>
+        <ean></ean>
+        <filehash></filehash>
+        <filehash-type></filehash-type>
+        <filename></filename>
+        <filesize></filesize>
+        <id>04128f95-301c-4786-87d6-679ba7c6b9d3</id>
+        <item>Software</item>
+        <item-value></item-value>
+        <label>Need for Speed: Porsche Unleashed</label>
+        <languages>
+        </languages>
+<languages-list></languages-list>
+        <lend-by></lend-by>
+        <license></license>
+        <loan-end-date></loan-end-date>
+        <loan-start-date></loan-start-date>
+        <loan-status>Available</loan-status>
+        <modified>2015-09-23</modified>
+        <multiplayer-game></multiplayer-game>
+        <picture-back></picture-back>
+        <picture-cd></picture-cd>
+        <picture-front></picture-front>
+        <platform></platform>
+        <publishers>
+        </publishers>
+<publishers-list></publishers-list>
+        <rating></rating>
+        <screenshot-one></screenshot-one>
+        <screenshot-three></screenshot-three>
+        <screenshot-two></screenshot-two>
+        <serial-key></serial-key>
+        <service></service>
+        <service-url></service-url>
+        <state>
+        </state>
+<state-list></state-list>
+        <storage-medium></storage-medium>
+        <tags>
+            <tag>
+                <name>trekstor/games_3</name>
+            </tag>
+        </tags>
+<tags-list>trekstor/games_3</tags-list>
+        <title>Need for Speed: Porsche Unleashed</title>
+        <user-long-text-field></user-long-text-field>
+        <user-numeric-field-1></user-numeric-field-1>
+        <user-numeric-field-2></user-numeric-field-2>
+        <user-short-text-field-1></user-short-text-field-1>
+        <user-short-text-field-2></user-short-text-field-2>
+        <version></version>
+        <webpage></webpage>
+        <year></year>
+    </software-item>
+    <software-item>
+        <item>Software</item>
+        <available>true</available>
+        <categories>
+        </categories>
+<categories-list></categories-list>
+        <container>
+        </container>
+<container-list></container-list>
+        <cooperative-multiplayer></cooperative-multiplayer>
+        <countries>
+        </countries>
+<countries-list></countries-list>
+        <created>2015-09-23</created>
+        <days></days>
+        <days-loaned></days-loaned>
+        <description></description>
+        <developers>
+        </developers>
+<developers-list></developers-list>
+        <due-date></due-date>
+        <ean></ean>
+        <filehash></filehash>
+        <filehash-type></filehash-type>
+        <filename></filename>
+        <filesize></filesize>
+        <id>04136ffe-9237-4bdc-b958-90170db139db</id>
+        <item>Software</item>
+        <item-value></item-value>
+        <label>Need for Speed: Carbon</label>
+        <languages>
+        </languages>
+<languages-list></languages-list>
+        <lend-by></lend-by>
+        <license></license>
+        <loan-end-date></loan-end-date>
+        <loan-start-date></loan-start-date>
+        <loan-status>Available</loan-status>
+        <modified>2015-09-23</modified>
+        <multiplayer-game></multiplayer-game>
+        <picture-back></picture-back>
+        <picture-cd></picture-cd>
+        <picture-front></picture-front>
+        <platform></platform>
+        <publishers>
+        </publishers>
+<publishers-list></publishers-list>
+        <rating></rating>
+        <screenshot-one></screenshot-one>
+        <screenshot-three></screenshot-three>
+        <screenshot-two></screenshot-two>
+        <serial-key></serial-key>
+        <service></service>
+        <service-url></service-url>
+        <state>
+        </state>
+<state-list></state-list>
+        <storage-medium></storage-medium>
+        <tags>
+            <tag>
+                <name>trekstor/games_3</name>
+            </tag>
+        </tags>
+<tags-list>trekstor/games_3</tags-list>
+        <title>Need for Speed: Carbon</title>
+        <user-long-text-field></user-long-text-field>
+        <user-numeric-field-1></user-numeric-field-1>
+        <user-numeric-field-2></user-numeric-field-2>
+        <user-short-text-field-1></user-short-text-field-1>
+        <user-short-text-field-2></user-short-text-field-2>
+        <version></version>
+        <webpage></webpage>
+        <year></year>
+    </software-item>
+    <software-item>
+        <item>Software</item>
+        <available>true</available>
+        <categories>
+        </categories>
+<categories-list></categories-list>
+        <container>
+        </container>
+<container-list></container-list>
+        <cooperative-multiplayer></cooperative-multiplayer>
+        <countries>
+        </countries>
+<countries-list></countries-list>
+        <created>2015-09-23</created>
+        <days></days>
+        <days-loaned></days-loaned>
+        <description></description>
+        <developers>
+        </developers>
+<developers-list></developers-list>
+        <due-date></due-date>
+        <ean></ean>
+        <filehash></filehash>
+        <filehash-type></filehash-type>
+        <filename></filename>
+        <filesize></filesize>
+        <id>0436ef8a-07c0-4afd-a5d0-c640638d359f</id>
+        <item>Software</item>
+        <item-value></item-value>
+        <label>Turning Point: Fall of Liberty</label>
+        <languages>
+        </languages>
+<languages-list></languages-list>
+        <lend-by></lend-by>
+        <license></license>
+        <loan-end-date></loan-end-date>
+        <loan-start-date></loan-start-date>
+        <loan-status>Available</loan-status>
+        <modified>2015-09-23</modified>
+        <multiplayer-game></multiplayer-game>
+        <picture-back></picture-back>
+        <picture-cd></picture-cd>
+        <picture-front></picture-front>
+        <platform></platform>
+        <publishers>
+        </publishers>
+<publishers-list></publishers-list>
+        <rating></rating>
+        <screenshot-one></screenshot-one>
+        <screenshot-three></screenshot-three>
+        <screenshot-two></screenshot-two>
+        <serial-key></serial-key>
+        <service></service>
+        <service-url></service-url>
+        <state>
+        </state>
+<state-list></state-list>
+        <storage-medium></storage-medium>
+        <tags>
+            <tag>
+                <name>trekstor/games_3</name>
+            </tag>
+        </tags>
+<tags-list>trekstor/games_3</tags-list>
+        <title>Turning Point: Fall of Liberty</title>
+        <user-long-text-field></user-long-text-field>
+        <user-numeric-field-1></user-numeric-field-1>
+        <user-numeric-field-2></user-numeric-field-2>
+        <user-short-text-field-1></user-short-text-field-1>
+        <user-short-text-field-2></user-short-text-field-2>
+        <version></version>
+        <webpage></webpage>
+        <year></year>
+    </software-item>
+    <software-item>
+        <item>Software</item>
+        <available>true</available>
+        <categories>
+            <category>
+                <name>Racing</name>
+            </category>
+        </categories>
+<categories-list>Racing</categories-list>
+        <container>
+        </container>
+<container-list></container-list>
+        <cooperative-multiplayer>false</cooperative-multiplayer>
+        <countries>
+        </countries>
+<countries-list></countries-list>
+        <created>2015-12-06</created>
+        <days></days>
+        <days-loaned></days-loaned>
+        <description>This Digital Edition is the download release of the game. It contains:
+Project CARS
+Limited Edition Car Pack with five new cars:
+BMW M1 Pro Car
+Ford GT40 Mk IV
+McLaren F1
+Mercedes-Benz AMG C-Coupe DTM
+Sauber C9When pre-ordered it also contained The Modified Car Pack with three additional cars:
+Ariel Atom 3 Mugen
+Pagani Zonda Cinque Roadster
+Ruf CTR3 SMS-R</description>
+        <developers>
+            <developer>
+                <name>Slightly Mad Studios Limited</name>
+            </developer>
+        </developers>
+<developers-list>Slightly Mad Studios Limited</developers-list>
+        <due-date></due-date>
+        <ean></ean>
+        <filehash></filehash>
+        <filehash-type></filehash-type>
+        <filename></filename>
+        <filesize></filesize>
+        <id>04b34ba9-6ae3-4aae-b752-9377e6da7dee</id>
+        <item>Software</item>
+        <item-value></item-value>
+        <label>Project CARS (Digital Edition) for Windows (2015)</label>
+        <languages>
+        </languages>
+<languages-list></languages-list>
+        <lend-by></lend-by>
+        <license></license>
+        <loan-end-date></loan-end-date>
+        <loan-start-date></loan-start-date>
+        <loan-status>Available</loan-status>
+        <modified>2018-01-06</modified>
+        <multiplayer-game>false</multiplayer-game>
+        <picture-back></picture-back>
+        <picture-cd></picture-cd>
+        <picture-front>file:///F:\Documents\tmp\games-export_images\04b34ba9-6ae3-4aae-b752-9377e6da7dee_PictureFront.jpg</picture-front>
+        <platform>PC</platform>
+        <publishers>
+            <publisher>
+                <name>BANDAI NAMCO Entertainment Europe S.A.S.</name>
+            </publisher>
+        </publishers>
+<publishers-list>BANDAI NAMCO Entertainment Europe S.A.S.</publishers-list>
+        <rating></rating>
+        <screenshot-one></screenshot-one>
+        <screenshot-three></screenshot-three>
+        <screenshot-two></screenshot-two>
+        <serial-key></serial-key>
+        <service>MobyGames / none / none / value=[Project Cars]</service>
+        <service-url>http://www.mobygames.com/game/windows/project-cars-digital-edition</service-url>
+        <state>
+        </state>
+<state-list></state-list>
+        <storage-medium></storage-medium>
+        <tags>
+            <tag>
+                <name>Storage C</name>
+            </tag>
+        </tags>
+<tags-list>Storage C</tags-list>
+        <title>Project CARS (Digital Edition) for Windows (2015)</title>
+        <user-long-text-field></user-long-text-field>
+        <user-numeric-field-1></user-numeric-field-1>
+        <user-numeric-field-2></user-numeric-field-2>
+        <user-short-text-field-1></user-short-text-field-1>
+        <user-short-text-field-2></user-short-text-field-2>
+        <version></version>
+        <webpage>http://www.mobygames.com/game/windows/project-cars-digital-edition</webpage>
+        <year>2015</year>
+    </software-item>
+    <software-item>
+        <item>Software</item>
+        <available>true</available>
+        <categories>
+        </categories>
+<categories-list></categories-list>
+        <container>
+        </container>
+<container-list></container-list>
+        <cooperative-multiplayer></cooperative-multiplayer>
+        <countries>
+        </countries>
+<countries-list></countries-list>
+        <created>2015-09-23</created>
+        <days></days>
+        <days-loaned></days-loaned>
+        <description></description>
+        <developers>
+        </developers>
+<developers-list></developers-list>
+        <due-date></due-date>
+        <ean></ean>
+        <filehash></filehash>
+        <filehash-type></filehash-type>
+        <filename></filename>
+        <filesize></filesize>
+        <id>05b574c1-d11c-48e9-8633-a32ea3b7460d</id>
+        <item>Software</item>
+        <item-value></item-value>
+        <label>Messiah</label>
+        <languages>
+        </languages>
+<languages-list></languages-list>
+        <lend-by></lend-by>
+        <license></license>
+        <loan-end-date></loan-end-date>
+        <loan-start-date></loan-start-date>
+        <loan-status>Available</loan-status>
+        <modified>2015-09-23</modified>
+        <multiplayer-game></multiplayer-game>
+        <picture-back></picture-back>
+        <picture-cd></picture-cd>
+        <picture-front></picture-front>
+        <platform></platform>
+        <publishers>
+        </publishers>
+<publishers-list></publishers-list>
+        <rating></rating>
+        <screenshot-one></screenshot-one>
+        <screenshot-three></screenshot-three>
+        <screenshot-two></screenshot-two>
+        <serial-key></serial-key>
+        <service></service>
+        <service-url></service-url>
+        <state>
+        </state>
+<state-list></state-list>
+        <storage-medium></storage-medium>
+        <tags>
+            <tag>
+                <name>trekstor/games_3</name>
+            </tag>
+        </tags>
+<tags-list>trekstor/games_3</tags-list>
+        <title>Messiah</title>
+        <user-long-text-field></user-long-text-field>
+        <user-numeric-field-1></user-numeric-field-1>
+        <user-numeric-field-2></user-numeric-field-2>
+        <user-short-text-field-1></user-short-text-field-1>
+        <user-short-text-field-2></user-short-text-field-2>
+        <version></version>
+        <webpage></webpage>
+        <year></year>
+    </software-item>
+</data-crow-objects>
