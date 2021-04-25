@@ -181,6 +181,13 @@ class Datacrowimport {
         curl_setopt($ch, CURLOPT_POST,1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
+        /** remove for debug
+		$fp = fopen(dirname(__FILE__).'/import-error.log', 'w+');
+		curl_setopt($ch, CURLOPT_VERBOSE, true);
+		curl_setopt($ch, CURLOPT_STDERR, $fp);
+		curl_setopt($ch, CURLINFO_HEADER_OUT, true);
+		 */
+
         if(!empty($port)) {
             curl_setopt($ch, CURLOPT_PORT, $port);
         }
@@ -189,9 +196,12 @@ class Datacrowimport {
 
         if(is_string($do) === true) {
             $ret = $do;
+            // debug line
+			//error_log(var_export(curl_getinfo($ch),true));
         }
         else {
             error_log(var_export(curl_error($ch),true));
+			error_log(var_export(curl_getinfo($ch),true));
         }
 
         curl_close($ch);

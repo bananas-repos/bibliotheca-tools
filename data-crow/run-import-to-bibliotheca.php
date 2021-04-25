@@ -20,22 +20,22 @@
  */
 
 # where the data crow export data is located.
-define('IMPORT_FOLDER','import/movie');
+define('IMPORT_FOLDER','import/game');
 # the data crow xml filename within the IMPORT_FOLDER
-define('DATACROW_XML_FILENAME','movies-export.xml');
+define('DATACROW_XML_FILENAME','games-export.xml');
 # the data crow images folder within the IMPORT_FOLDER (optional)
-define('DATACROW_IMAGES_FOLDERNAME','movies-export_images');
-# the output folder where the generead MD content will be saved
+define('DATACROW_IMAGES_FOLDERNAME','games-export_images');
+# the output folder where the generated MD content will be saved
 define('OUTPUT_FOLDER','output');
 
 # the bibliotheca api endpoint
 define('API_ENDPOINT','http://localhost/bibliotheca/webclient/api.php?p=add');
 # the tolen to connect to the api.
 # created in bibliotheca use management
-define('API_TOKEN','c435168733c58b82d455d776990ff425');
+define('API_TOKEN','1e637832829255b453ce589b066b3c69');
 
 # the bibliotheca collection to store into
-define('BIB_COLLECTION_ID','1');
+define('BIB_COLLECTION_ID','2');
 
 
 define('DEBUG',true);
@@ -97,12 +97,12 @@ if(!empty($entries)) {
 
         // the resulting POST data array is key=>value (string) only
         // only the upload can be an array
-        $_data['actors'] = implode(',',$entry['actors']);
-        $_data['tag'] = implode(',',$entry['tag']);
-        $_data['genres'] = implode(',',$entry['genres']);
-        $_data['directors'] = implode(',',$entry['directors']);
-        $_data['countries'] = implode(',',$entry['countries']);
-        $_data['languages'] = implode(',',$entry['languages']);
+		// lookupmultiple fields
+		// change to match your import settings
+        if(isset($_data['category'])) $_data['category'] = implode(',',$entry['category']);
+		if(isset($_data['developer'])) $_data['developer'] = implode(',',$entry['developer']);
+		if(isset($_data['tag'])) $_data['tag'] = implode(',',$entry['tag']);
+		if(isset($_data['publisher'])) $_data['publisher'] = implode(',',$entry['publisher']);
 
         if(!empty($_data['coverimage'])) {
             $_data['coverimage'] = curl_file_create($_data['coverimage']);
@@ -123,16 +123,26 @@ if(!empty($entries)) {
             unset($_data['attachment']);
         }
 
-        var_dump($_data);
-        exit();
         $do = $ImportObj->curlPostCall($url,$_data);
         if(!empty($do)) {
-            echo "Created: ".$entry['title']."\n";
-            echo var_export($do, true)."\n";
+			$retJson = json_decode($do,true);
+			if(!empty($retJson) && isset($retJson['status']) && $retJson['status'] === 200) {
+				echo "Created: ".$entry['title']."\n";
+				echo "With data: ".var_export($entry,true)."\n";
+				echo "Returndata: ".var_export($do, true)."\n";
+			}
+			else {
+				echo "can not create: ".$entry['title']."\n";
+				echo "With data: ".var_export($entry,true)."\n";
+				echo "Returndata: ".var_export($do, true)."\n";
+				exit(1);
+			}
         }
         else {
             echo "can not create: ".$entry['title']."\n";
-            echo var_export($do, true)."\n";
+			echo "invalid call return data\n";
+			echo "With data: ".var_export($entry,true)."\n";
+            echo "Returndata: ".var_export($do, true)."\n";
             exit(1);
         }
     }

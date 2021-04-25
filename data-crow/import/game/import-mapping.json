@@ -2,70 +2,67 @@
   "mapping": {
     "element": "software-item",
     "fields": {
+      "title": {
+        "into": "title"
+      },
       "categories": {
         "child": "category",
         "valuefield": "name",
         "into": "category"
       },
       "description": {
-        "into": "description"
-      },
-      "developers": {
-        "child": "developer",
-        "valuefield": "name",
-        "into": "directors"
-      },
-
-
-      "countries-list": {
-        "into": "country"
-      },
-      "created": {
-        "into": "date"
-      },
-      "description": {
-        "into": "body"
+        "into": "content"
       },
       "description-alternative": {
         "into": "description",
         "from": "description",
         "method": "firstSentence"
       },
-
-      "genres": {
-        "child": "genre",
+      "developers": {
+        "child": "developer",
         "valuefield": "name",
-        "into": "genres"
+        "into": "developer"
       },
-      "title": {
-        "into": "title"
-      },
-      "languages-list": {
-        "into": "languages"
+      "picture-front": {
+        "into": "coverimage",
+        "asset": "image"
       },
       "picture-back": {
-        "into": "file_picture-back",
+        "into": "attachment",
         "asset": "image"
       },
       "picture-cd": {
-        "into": "file_picture-cd",
+        "into": "attachment",
         "asset": "image"
       },
-      "picture-front": {
-        "into": "file_picture-front",
-        "asset": "image"
+      "publishers": {
+        "child": "publisher",
+        "valuefield": "name",
+        "into": "publisher"
+      },
+      "platform": {
+        "into": "platform"
       },
       "rating": {
         "into": "rating",
-        "method": "modifyRating"
+        "method": "modifyRatingTrim"
       },
-      "playlength": {
-        "into": "runtime"
+      "screenshot-one": {
+        "into": "attachment",
+        "asset": "image"
+      },
+      "screenshot-two": {
+        "into": "attachment",
+        "asset": "image"
+      },
+      "screenshot-three": {
+        "into": "attachment",
+        "asset": "image"
       },
       "tags": {
         "child": "tag",
         "valuefield": "name",
-        "into": "storage"
+        "into": "tag"
       },
       "year": {
         "into": "year"
