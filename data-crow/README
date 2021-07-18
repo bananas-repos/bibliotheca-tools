@@ -1,5 +1,5 @@
-Examples to import a data crow (https://www.datacrow.net/) xml export into 
-biliotheca https://www.bananas-playground.net/projekt/bibliotheca/
+Examples to import a data crow (https://www.datacrow.net/) xml export into
+bibliotheca https://www.bananas-playground.net/projekt/bibliotheca/
 
 # Requirements
 
@@ -18,7 +18,7 @@ Requirements:
 Use the import-mapping-example.json as a base and copy it into the import folder.
 - API token
 - The ID of your collection you want to import the data into
-- The structure of the api call for your colleciton. This can requested by calling the api. See the api
+- The structure of the api call for your collection. This can requested by calling the api. See the api
 docu for this.
 
 import-mapping.json
@@ -26,9 +26,9 @@ Defines which xml element from the xml export file will be used. Name of the ite
 The files array defines which field of the xml element goes where in the database.
 Into has to start with file_
 Minimum is the into with an target string.
-child defines that the element has children which will be used to create a comma seperated string defined by
+child defines that the element has children which will be used to create a comma separated string defined by
 valuefield.
-method defines a method in datacrowimport.class.php which will be used to alter the data befor writing it into the
+method defines a method in datacrowimport.class.php which will be used to alter the data before writing it into the
 database. The string and a prefix of _modify_ will be used as the method name within the php class
 
 Usage:
@@ -61,9 +61,9 @@ Defines which xml element from the xml export file will be used. Name of the ite
 The files array defines which field of the xml element goes where in the markdown-template. Into has to start with
 file_
 Minimum is the into with an target string.
-child defines that the element has children which will be used to create a comma seperated string defined by
+child defines that the element has children which will be used to create a comma separated string defined by
 valuefield.
-method defines a method in datacrowimport.class.php which will be used to alter the data befor writing it into the
+method defines a method in datacrowimport.class.php which will be used to alter the data before writing it into the
 template. The string and a prefix of _modify_ will be used as the method name within the php class
 
 markdown-template.md

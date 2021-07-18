@@ -1,0 +1,24 @@
+Examples to import a digital music lib into
+bibliotheca https://www.bananas-playground.net/projekt/bibliotheca/
+
+
+Simple mp3 import script based on the following folder structure
+/artist/year/album/tracks|cover
+
+# Requirements
+PHP installed as CLI with a minimum version of 7
+- php installed as cli
+- API token
+- The ID of your collection you want to import the data into
+- The structure of the api call for your collection. This can requested by calling the api. See the api
+docs for this.
+
+# Usage
+Make sure you read the requirements and made the needed changes in the run.php
+The run run-import-to-static-md.php file. Any error or missconfig should be printed as an error in the import-error.log
+file.
+
+    php -f run.php
+
+# Uses
+https://github.com/JamesHeinrich/getID3
